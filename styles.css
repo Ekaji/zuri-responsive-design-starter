@@ -14,6 +14,9 @@ div.nav-bar {
     width: 100vw;
     background: #304353;
 }
+a.icon{
+    display: none;
+}
 
 div.logo {
     font-size: 1.5rem;
@@ -372,6 +375,9 @@ div.footer h6 {
         font-size: 30px;
         width: 30px;
         padding: 0px;
+    }
+    a.icon{
+        display: inline-block;
     }
     a.icon{
         z-index: 300;

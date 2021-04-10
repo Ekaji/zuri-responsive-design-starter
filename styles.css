@@ -61,7 +61,7 @@ div.hero-content-heading h3 {
     color: #bcc3c7;
 }
 
-div.hero-content-heading p {
+div.hero-content-heading > p {
     text-align: center;
     padding-top: 0.7rem;
     color: #88949B;
@@ -354,9 +354,53 @@ div.footer h6 {
         overflow-x: hidden;
         width: 100vw;
     }
+    div.nav-bar{
+        width: 100vw;
+    }
+    div.menu{
+        position: absolute;
+        right: 0;
+    }
+    div.menu-container{
+        display: flex;
+        flex-direction: column;
+        width: 200px;
+        /* background-color: #A6A5AA; */
+        margin-top: -15px;
+    }
+    div.menu-container > a > i {
+        font-size: 30px;
+        width: 30px;
+        padding: 0px;
+    }
+    a.icon{
+        z-index: 300;
+        width: 10px;
+        margin-left: 20px;
+    }
+    i.fa.fa-bars{
+        margin-left: 150px;
+    }
+    ul.nav-links {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        width: 100px;
+        margin: 20px auto;
+    }
+    div.menu-background{
+        margin-top: -30px;
+        background-color: #A6A5AA;
+    }
+    div.menu-background.menu-hidden{
+       display: none; 
+    }
+    ul.nav-links > li {
+        margin: 10px auto;
+    }
     div.hero-section {
         padding: 1rem;
-        height: 70vh;
+        height: 80vh;
     }
     div.hero-content-heading > h3{
         margin-top: 2rem;
@@ -377,6 +421,7 @@ div.footer h6 {
     }
     div.snapshot-team > p{
         width: 80vw;
+        margin: 0px auto;
     }
     div.snapshot-box{
         margin-top: -30px;

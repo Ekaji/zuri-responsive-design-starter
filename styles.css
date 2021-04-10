@@ -452,13 +452,25 @@ div.footer h6 {
     div.footer-textarea > textarea{
         width: 250px;
     }
+    div.hero-background-pos{
+        display: none;
+    }
 }
 
-
-/* tablets */
-@media screen and (min-width:581px) and (max-width: 900px){
-    
-} 
+@media screen and (min-width: 581px) and (max-width: 1366px) {
+    *{
+        font-size: 20px;   
+    }
+    div.hero-section{
+        padding: 5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    div.background{
+        height: 40vh;
+    }
+}
 
 
 @media screen and (min-width:901px) and (max-width: 1318px){
